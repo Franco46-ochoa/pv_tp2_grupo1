@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="css/estilos.css"
+    />
+    <script>
+      const calcularMayor = (numero1, numero2) => {
+        if (numero1 > numero2) {
+          alert('El primer número es mayor');
+        } else if (numero1 < numero2) {
+          alert('El segundo número es mayor');
+        } else {
+          alert('Los dos números son iguales');
+        }
+      };
+      let numero1 = prompt('Ingrese el primer número');
+      let numero2 = prompt('Ingrese el segundo número');
+      calcularMayor(Number(numero1), Number(numero2));
+    </script>
+    <title>TP02-Ejercicio08</title>
+  </head>
+  <body>
+    <section class="consigna">
+      <h1>TP02 - Ejercicio08</h1>
+      <p>
+        Declarar una función con nombre calcularMayor() y pasarle como
+        parámetros (numero1, numero2). Dentro de la función mostrar un alert que
+        diga cuál de los números ingresados es mayor. En caso de ser iguales,
+        tendrá que indicarlo a través de un alert también. Invocar la función y
+        enviar los argumentos con diferentes números para probar.
+      </p>
+    </section>
+  </body>
+</html>
