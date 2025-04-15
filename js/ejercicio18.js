@@ -1,0 +1,3 @@
+function cambiarTexto() {
+    document.getElementById("parrafo").textContent = "El listado anterior, de interfaces de la API nativa, en muchos casos requiere utilizar algunas librerías de terceros que nos facilitan el trabajo a costa de reducir minimamente el rendimiento, pero permitiéndonos programar más rápidamente. Esta construir puede llevar a determinar propios frameworks que veremos más adelante en este curso.";
+}
