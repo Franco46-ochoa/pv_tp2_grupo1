@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="css/estilos.css"
+    />
+    <script>
+      let arreglo = [1, 2, 3, 4, 5];
+      let arregloDuplicado = [];
+      const duplicar = (arreglo) => {
+        for (let index = 0; index < arreglo.length; index++) {
+          arregloDuplicado.push(arreglo[index] * 2);
+        }
+        return arregloDuplicado;
+      };
+      alert(
+        'Arreglo original: ' +
+          arreglo +
+          '\n' +
+          'Arreglo duplicado: ' +
+          duplicar(arreglo),
+      );
+    </script>
+    <title>TP02-Ejercicio14</title>
+  </head>
+  <body>
+    <section class="consigna">
+      <h1>TP02 - Ejercicio14</h1>
+      <p>
+        Escribir una función llamada duplicar que reciba un arreglo de números y
+        retorne un nuevo arreglo donde cada número esté multiplicado por dos
+        (2).
+      </p>
+    </section>
+  </body>
+</html>
