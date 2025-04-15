@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function retomar_mes() {
+            let nmes = parseInt(prompt("¿Qué número de mes querés? (1-12)"));
+            const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+            if (nmes >= 1 && nmes <= 12) {
+                alert("Es el mes: " + meses[nmes - 1]);
+            } else {
+                alert("Número inválido. Ingresá un número del 1 al 12.");
+            }
+        }
+
+        retomar_mes();
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
