@@ -2,29 +2,23 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="stylesheet"
-      href="css/estilos.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/ejercicio 17.css" />
     <script>
       const contarLetraA = (cadena) => {
         let contador = 0;
         for (let index = 0; index < cadena.length; index++) {
-          if (cadena[index] === 'a') {
+          if (cadena[index] === "a") {
             contador++;
           }
         }
         return contador;
       };
-      let cadena = prompt('Ingrese la cadena');
+      let cadena = prompt("Ingrese la cadena");
       alert(
-        'La letra a aparece ' +
+        "La letra a aparece " +
           contarLetraA(cadena.toLowerCase()) +
-          ' veces en la cadena.',
+          " veces en la cadena."
       );
     </script>
     <title>TP02-Ejercicio17</title>
