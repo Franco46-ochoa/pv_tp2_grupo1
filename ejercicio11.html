@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="css/estilos.css"
+    />
+    <script>
+      let kilometros = prompt('Ingrese el número de kilómetros recorridos');
+      let litros = prompt(
+        'Ingrese el número de litros de combustible consumidos',
+      );
+      const consumoDecombustible = (kilometros, litros) => {
+        return litros / kilometros;
+      };
+      alert(
+        'El consumo de combustible por kilómetro es ' +
+          consumoDecombustible(Number(kilometros), Number(litros)) +
+          ' litros',
+      );
+    </script>
+    <title>TP02-Ejercicio11</title>
+  </head>
+  <body>
+    <section class="consigna">
+      <h1>TP02 - Ejercicio11</h1>
+      <p>
+        Solicitar al usuario que ingrese el número de kilómetros recorridos por
+        su vehículo y el número de litros de combustible consumidos. Calcular y
+        mostrar el consumo decombustible por kilómetro. El resultado se obtiene
+        dividiendo número de litros dividido por número de kilómetros.
+      </p>
+    </section>
+  </body>
+</html>

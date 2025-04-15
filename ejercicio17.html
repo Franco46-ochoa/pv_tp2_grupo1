@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="css/estilos.css"
+    />
+    <script>
+      const contarLetraA = (cadena) => {
+        let contador = 0;
+        for (let index = 0; index < cadena.length; index++) {
+          if (cadena[index] === 'a') {
+            contador++;
+          }
+        }
+        return contador;
+      };
+      let cadena = prompt('Ingrese la cadena');
+      alert(
+        'La letra a aparece ' +
+          contarLetraA(cadena.toLowerCase()) +
+          ' veces en la cadena.',
+      );
+    </script>
+    <title>TP02-Ejercicio17</title>
+  </head>
+  <body>
+    <section class="consigna">
+      <h1>TP02 - Ejercicio17</h1>
+      <p>
+        Escribir una función llamada contarLetraA que reciba un string y retorne
+        el número de veces que aparece la letra "a".
+      </p>
+    </section>
+  </body>
+</html>
