@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    function sumarRango(numInicial, numFinal) {
+      // Convierte las entradas a números enteros
+      numInicial = parseInt(numInicial);
+      numFinal = parseInt(numFinal);
+  
+      // Verifica si las entradas son validas
+      if (isNaN(numInicial) || isNaN(numFinal)) {
+        return "Por favor, ingrese números válidos.";
+      }
+  
+      if (numInicial > numFinal) {
+        return "El número inicial debe ser menor o igual que el número final.";
+      }
+  
+      let suma = 0;
+      for (let i = numInicial; i <= numFinal; i++) {
+        suma += i;
+      }
+      return "La suma del rango es: " + suma;
+    }
+  
+    // Solicita al usuario que ingrese los números
+    let inicio = prompt("Ingrese el número inicial del rango:");
+    let fin = prompt("Ingrese el número final del rango:");
+  
+    // Verificar si el usuario ingresó ambos números
+    if (inicio !== null && fin !== null) {
+      let resultado = sumarRango(inicio, fin);
+      alert(resultado);
+    } else {
+      alert("No se ingresaron ambos números.");
+    }
+  </script>
+
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
