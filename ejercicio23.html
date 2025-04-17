@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 23</title>
+    <link rel="stylesheet" href="css/ejercicio23.css" />
+  </head>
+  <body>
+    <h1>Ejercicio 23</h1>
+    <p>Escoge una opción:</p>
+    <div class="opciones">
+      <input type="radio" name="lenguaje" id="op1" onclick="mostrar('C++')" />
+      <label for="op1">C++</label><br />
+
+      <input
+        type="radio"
+        name="lenguaje"
+        id="op2"
+        onclick="mostrar('Python')"
+      />
+      <label for="op2">Python</label><br />
+
+      <input type="radio" name="lenguaje" id="op3" onclick="mostrar('Java')" />
+      <label for="op3">Java</label><br />
+    </div>
+    <h2>Has seleccionado:</h2>
+    <div id="resultado"></div>
+
+    <script src="js/ejercicio23.js"></script>
+  </body>
+</html>

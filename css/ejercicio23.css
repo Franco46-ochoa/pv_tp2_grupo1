@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color: #cebebe;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  p{
+    font-size: 20px;
+  }
+  label{
+    font-size: 17px;
+  }
+  input[type="radio"] {
+    accent-color: rgb(78, 124, 78);
+  }
+  .opciones{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid #b67e7e;
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 300px;          
+    margin: 0 auto;
+    background-color: #b67e7e;
+  }
+  
+  #resultado { display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid #b67e7e;
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 300px;          
+    margin: 0 auto;
+    background-color: #b67e7e;
+  }
+  
