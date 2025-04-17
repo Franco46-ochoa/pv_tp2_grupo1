@@ -1,12 +1,9 @@
-// ejercicio19.js
-
 // Obtenemos los elementos
 const inputNombre = document.querySelector("#nombre");
 const inputApellido = document.querySelector("#apellido");
 const inputLua = document.querySelector("#libreta");
 const boton = document.querySelector("#mostrarDatos");
 
-// Evento en el botón
 boton.addEventListener("click", () => {
   const nombre = inputNombre.value.trim();
   const apellido = inputApellido.value.trim();
